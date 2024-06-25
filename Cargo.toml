@@ -1,0 +1,10 @@
+[package]
+name = "the-bubblehouse"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4.0"
+actix-http = "3.0"
+serde = { version = "1.0", features = ["derive"] }
+
